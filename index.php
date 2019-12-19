@@ -54,7 +54,34 @@
 						</div>
 						<div class="header__order-btn">
 							<a href="#contacts">Заказать концерт</a>
-						</div>											
+						</div>
+						<div class="header-socials">
+							<?php if($settings['marsel_vk'] != null) { ?>
+							<a class="header-social" href="<?php echo $settings['marsel_vk'];?>" target="_blank">
+								<img src="<?php echo get_template_directory_uri();?>/img/83ff9c135bef377259dd2220f2e095a9.png" alt="Vkontakte">
+							</a>
+							<?php } ?>
+							<?php if($settings['marsel_tw'] != null) { ?>
+							<a class="header-social" href="<?php echo $settings['marsel_tw'];?>" target="_blank">
+								<img src="<?php echo get_template_directory_uri();?>/img/666f448e6d95013683c0c190d7686f64.png" alt="Twitter">
+							</a>
+							<?php } ?>
+							<?php if($settings['marsel_yt'] != null) { ?>
+							<a class="header-social" href="<?php echo $settings['marsel_yt'];?>" target="_blank">
+								<img src="<?php echo get_template_directory_uri();?>/img/db73b708f669e5e87c5fe148c5814fa5.png" alt="Youtube">
+							</a>
+							<?php } ?>
+							<?php if($settings['marsel_fb'] != null) { ?>
+							<a class="header-social" href="<?php echo $settings['marsel_fb'];?>" target="_blank">
+								<img src="<?php echo get_template_directory_uri();?>/img/5d8bc7f734fc76e785b7702e7337ab5c.png" alt="Facebook">
+							</a>
+							<?php } ?>
+							<?php if($settings['marsel_insta'] != null) { ?>
+							<a class="header-social" href="<?php echo $settings['marsel_insta'];?>" target="_blank">
+								<img src="<?php echo get_template_directory_uri();?>/img/ddcbb8b274254f977f0cceb99d108698.png" alt="Instagram">
+							</a>
+							<?php } ?>
+						</div>
 					</div><!--/.nav-collapse -->
 				</div>
 			</nav>

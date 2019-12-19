@@ -389,7 +389,7 @@ img {
 }
 @media (max-width: 767px) {
 	.header-contact-1 {
-		margin-bottom: 25px;
+		margin-bottom: 15px;
 	}
 }
 @media (min-width: 1200px) {
@@ -415,6 +415,26 @@ img {
     font-weight: normal;
     line-height: 1.2em;
 	margin-top: 5px;
+}
+.header-socials {
+	display: none;
+}
+@media (max-width: 767px) {
+	.header-socials {
+		display: block;
+		margin-bottom: 15px;
+	}
+}
+a.header-social:hover,
+a.header-social:focus {
+	text-decoration: none;
+}
+.header-social img {
+	height: 30px;
+	width: auto;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 10px;
 }
 /* Youtube */
 .embed-responsive {
